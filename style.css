@@ -33,7 +33,7 @@ nav>h2 {
 /* banner section */
 
 .banner {
-    background-image: url(/assets/Hero-bg.png);
+    background-image: url(./assets/Hero-bg.png);
     height: 652px;
     display: flex;
     flex-direction: column;
