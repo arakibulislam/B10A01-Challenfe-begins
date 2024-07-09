@@ -1,0 +1,70 @@
+* {
+    font-family: "Azeret Mono", monospace;
+}
+
+/* navbar section */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav>h2 {
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.btn-primary {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 24px 17px 24px;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    background-color: white;
+}
+.btn-primary:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+/* banner section */
+
+.banner {
+    background-image: url(/assets/Hero-bg.png);
+    height: 652px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.banner-title {
+    width: 998px;
+    text-align: center;
+    margin: 24px 0px;
+}
+
+.banner-description {
+    width: 852px;
+    text-align: center;
+    margin: 24px 0px;
+}
+
+.contact-btn {
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    padding: 21px 24px 21px 24px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 32px 0px;
+}
+.banner>a :hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
