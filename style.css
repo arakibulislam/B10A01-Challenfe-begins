@@ -24,7 +24,8 @@ nav>h2 {
     border-radius: 8px;
     background-color: white;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     cursor: pointer;
     background-color: black;
     color: white;
@@ -63,8 +64,77 @@ nav>h2 {
     font-weight: 600;
     margin: 32px 0px;
 }
-.banner>a :hover{
+
+.banner>a :hover {
     cursor: pointer;
     background-color: white;
     color: black;
+}
+
+/* development section */
+
+.development {
+    margin: 74px auto;
+    width: 1140px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    padding: 80px 97px 48px 97px;
+}
+
+
+.d-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+    margin: 0px 0px 24px 0px;
+}
+
+.d-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.d-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    align-items: center;
+    margin: 32px 0;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255,0), rgba(255, 255, 255) 100%);
+}
+
+.d-info-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    align-items: center;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+}
+
+.d-info-text {
+    width: 477px;
+}
+
+.d-info-title {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.d-info-description {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 16px 0 32px 0px;
+}
+
+.d-img {
+    width: 274.17px;
+    height: 240px;
 }
