@@ -250,12 +250,13 @@ nav>h2 {
     text-align: center;
 }
 
-form{
+form {
     display: flex;
     align-items: center;
     gap: 16px;
     margin-top: 48px;
 }
+
 .f-input {
     width: 508px;
     height: 57px;
@@ -279,4 +280,21 @@ form{
     border-radius: 8px;
     background: rgb(255, 255, 255);
     padding: 0 20px;
+}
+
+/*footer section  */
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 32px 150px 32px 150px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    margin-top: 80px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    gap: 24px;
 }
